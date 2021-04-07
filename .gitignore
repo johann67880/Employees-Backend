@@ -3,3 +3,18 @@
 ################################################################################
 
 /.vs/Employees/DesignTimeBuild/.dtbcache.v2
+/.vs/Employees/v16/TestStore/0/000.testlog
+/.vs/Employees/v16/TestStore/0/testlog.manifest
+/.vs/Employees/v16/.suo
+/.vs/Employees/config/applicationhost.config
+/Employees.API/bin/Debug/netcoreapp3.1
+/Employees.API/obj
+/Employees.Domain/bin/Debug/netstandard2.0
+/Employees.Domain/obj
+/Employees.Infrastructure/bin/Debug/netcoreapp3.1
+/Employees.Services/bin/Debug/netcoreapp3.1
+/Employees.Services/obj
+/Employees.Tests/bin/Debug/netcoreapp3.1
+/Employees.Tests/obj/Debug/netcoreapp3.1
+/Employees.Tests/obj
+/Employees.Infrastructure/obj

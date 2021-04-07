@@ -34,6 +34,12 @@
         public async Task<Employee> GetEmployeeAsync(int id)
         {
             var employees = await this.employeeRepository.GetEmployeeAsync(id);
+            
+            if(employees is null)
+            {
+                return null;
+            }
+
             var result = MapEmployees(new List<Employee> { employees });
             return result.FirstOrDefault();
         }

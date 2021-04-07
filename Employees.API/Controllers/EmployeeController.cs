@@ -51,12 +51,6 @@
             try
             {
                 var result = await this.employeeService.GetEmployeeAsync(id);
-
-                if (result == null)
-                {
-                    return NotFound();
-                }
-
                 return Ok(result);
             }
             catch (Exception ex)
